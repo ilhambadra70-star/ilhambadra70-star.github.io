@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio BTS SIO - Ilham Saouli</title>
+
+    <style>
+
+        /* Couleurs et style général */
+
+        :root {
+
+            --primary: #2563eb;
+
+            --bg: #f8fafc;
+
+            --text: #1e293b;
+
+            --card-bg: #ffffff;
+
+        }
+
+        body {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            line-height: 1.6;
+
+            margin: 0;
+
+            background-color: var(--bg);
+
+            color: var(--text);
+
+        }
+
+        header {
+
+            background: linear-gradient(135deg, #1e3a8a, var(--primary));
+
+            color: white;
+
+            padding: 3rem 1rem;
+
+            text-align: center;
+
+        }
+
+        .container {
+
+            max-width: 1000px;
+
+            margin: 2rem auto;
+
+            padding: 0 1rem;
+
+        }
+
+        h2 {
+
+            border-bottom: 3px solid var(--primary);
+
+            padding-bottom: 0.5rem;
+
+            color: #1e3a8a;
+
+            margin-top: 3rem;
+
+        }
+
+        /* Style des blocs (Cartes) */
+
+        .grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            gap: 1.5rem;
+
+            margin-top: 1.5rem;
+
+        }
+
+        .card {
+
+            background: var(--card-bg);
+
+            padding: 1.5rem;
+
+            border-radius: 8px;
+
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+            border-left: 5px solid var(--primary);
+
+        }
+
+        .card h3 {
+
+            margin-top: 0;
+
+            color: #1e3a8a;
+
+        }
+
+        /* Boutons et Liens */
+
+        .btn {
+
+            display: inline-block;
+
+            background-color: var(--primary);
+
+            color: white;
+
+            text-decoration: none;
+
+            padding: 0.5rem 1rem;
+
+            border-radius: 5px;
+
+            margin-top: 1rem;
+
+            font-weight: bold;
+
+            transition: background 0.3s;
+
+        }
+
+        .btn:hover {
+
+            background-color: #1d4ed8;
+
+        }
+
+        .btn-download {
+
+            background-color: #10b981;
+
+        }
+
+        .btn-download:hover {
+
+            background-color: #059669;
+
+        }
+
+        footer {
+
+            text-align: center;
+
+            padding: 2rem;
+
+            margin-top: 4rem;
+
+            background-color: #1e293b;
+
+            color: white;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1>Ilham Saouli</h1>
+
+        <p>Étudiante en BTS SIO (Services Informatiques aux Organisations)</p>
+
+        <p>Option : [SLAM (Développement) ou SISR (Réseau)]</p>
+
+    </header>
+
+
+
+    <div class="container">
+
+
+
+        <section id="a-propos">
+
+            <h2>Présentation générale</h2>
+
+            <p>Bienvenue sur mon portfolio professionnel. Actuellement étudiante en BTS SIO, je développe mes compétences en informatique à travers des projets pratiques, des stages et des ateliers de professionnalisation.</p>
+
+            
+
+            <a href="tableau-synthese.pdf" target="_blank" class="btn btn-download">📄 Télécharger mon Tableau de Synthèse (E4)</a>
+
+        </section>
+
+
+
+        <section id="tp">
+
+            <h2>Travaux Pratiques (TP)</h2>
+
+            <div class="grid">
+
+                <div class="card">
+
+                    <h3>TP 1 : [Nom de ton premier TP]</h3>
+
+                    <p>Description rapide de ce que tu as fait (Ex: Création d'une base de données SQL, Configuration d'un commutateur, etc.).</p>
+
+                    <a href="tp1.pdf" target="_blank" class="btn">Voir le compte-rendu</a>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>TP 2 : [Nom de ton deuxième TP]</h3>
+
+                    <p>Description rapide du contexte et des technologies utilisées.</p>
+
+                    <a href="#" class="btn">Voir le compte-rendu</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="missions">
+
+            <h2>Missions & Projets</h2>
+
+            <div class="grid">
+
+                <div class="card">
+
+                    <h3>Projet Réseau / Développement 1</h3>
+
+                    <p>Présentation d'un projet de groupe ou d'une mission de cybersécurité réalisée en cours.</p>
+
+                    <a href="#" class="btn">Consulter la documentation</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="stages">
+
+            <h2>Stages Professionnels</h2>
+
+            <div class="grid">
+
+                <div class="card">
+
+                    <h3>Stage de 1ère année - [Nom de l'entreprise]</h3>
+
+                    <p><strong>Durée :</strong> 5 à 6 semaines (Dates)</p>
+
+                    <p><strong>Missions :</strong> Description de ce que tu as fait durant ton stage en entreprise.</p>
+
+                    <a href="rapport-stage1.pdf" target="_blank" class="btn">Rapport de stage</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </div>
+
+
+
+    <footer>
+
+        <p>&copy; 2026 - Ilham Saouli - Portfolio BTS SIO</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
